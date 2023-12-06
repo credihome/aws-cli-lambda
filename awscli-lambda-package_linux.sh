@@ -54,7 +54,7 @@ cp ../${VIRTUAL_ENV_DIR}/bin/aws .
 cp -r ../${VIRTUAL_ENV_DIR}/lib/python${PYTHON_VERSION}/site-packages/ .
 
 # Zips the contents of the temporary directory
-zip -r ../${ZIP_FILE_NAME} *
+zip -q -r ../${ZIP_FILE_NAME} *
 
 # Goes back to where it started
 cd ..
