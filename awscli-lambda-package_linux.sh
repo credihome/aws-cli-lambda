@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #debug log
-set -x
+#set -x
 
 # The script will fail if any of the commands fail
 set -e
