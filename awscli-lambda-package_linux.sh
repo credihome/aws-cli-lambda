@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #debug log
 set -x
 
